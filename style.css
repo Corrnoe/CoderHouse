@@ -1,22 +1,22 @@
-
+/* --------------- Index --------------- */
 * {
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-
   font-family: sans-serif;
-  background-color: #292929;
   color: white;
 
 }
 
+body {
+  
+  background-color: #292929;
+
+}
 
 .top-bar {
-
-  background-color: #E1131B;
+  background-color: #292929;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -24,7 +24,6 @@ body {
   max-width: 100%;
   margin: 0 auto;
   padding: 20px;
-
 }
 
 .logo {
@@ -55,25 +54,22 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
+  color: #E1131B;
 }
 
 img {
-
   width: 100%;
-  height: fit-content;
+  height: 1000px;
   object-fit: cover;
-
 }
 
 .journal {
-
   position: relative;
   max-width: 100%;
-
+  margin: 100px;
 }
 
 button {
-
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -82,14 +78,11 @@ button {
   color: #fff;
   border: none;
   cursor: pointer;
-
 }
 
 .journal p {
-
   padding: 20px;
   text-align: center;
-
 }
 
 .left-button {
@@ -102,7 +95,6 @@ button {
 
 
 .bottom-bar {
-
   background-color: #E1131B;
   background-size: 100%;
   padding: 10px 0;
@@ -112,30 +104,58 @@ button {
   max-width: 100%;
   margin: 0 auto;
   padding: 15px;
-
 }
 
 .follow nav ul li a {
-
   display: block;
   margin-left: 15px;
   padding: 0px;
-
 }
 
 .follow p {
-
   margin-bottom: 20px;
   font-size: 24px;
+}
 
+.follow ul li a:hover {
+  text-decoration: underline;
+  color: #292929;
 }
 
 .info nav ul li a {
-
   display: block;
   margin-left: 15px;
   padding: 0px;
-
 }
 
+.info ul li a:hover {
+  text-decoration: underline;
+  color: #292929;
+}
+
+/* --------------- Log In --------------- */
+
+.login {
+  text-align: center;
+  padding: 25px;
+  margin: 50px;
+}
+
+.input-group {
+  margin: 20px;
+}
+
+/* --------------- About --------------- */
+
+.about {
+  text-align: center;
+  padding: 25px;
+  margin: 50px;
+}
+
+/* --------------- Maps --------------- */
+
+
+
+/* --------------- Journal --------------- */
 
