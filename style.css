@@ -1,16 +1,11 @@
 /* --------------- Index --------------- */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: sans-serif;
   color: white;
 }
 
 body {
   background-color: #292929;
-  position: relative;
-  min-height: 100vh;
 }
 
 .top-bar {
@@ -66,9 +61,9 @@ nav ul li a:hover {
   position: relative;
   max-width: 100%;
   margin: 100px;
-}
+} 
 
-button {
+.journal button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -109,7 +104,7 @@ button {
   width: 100%;
   margin: 0 auto;
   padding: 20px;
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
 
@@ -158,7 +153,6 @@ button {
   text-align: center;
   padding: 25px;
   margin: 50px;
-}
 
 /* --------------- Maps --------------- */
 
